@@ -93,7 +93,7 @@
       </array>
     </config-file>
 
-    <preference name="LOCATION_USAGE_DESCRIPTION" default="This app requires access to your location for navigation purposes" />
+    <preference name="LOCATION_USAGE_DESCRIPTION" default="Allow location-services to display nearby restaurants" />
     <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
       <string>$LOCATION_USAGE_DESCRIPTION</string>
     </config-file>
